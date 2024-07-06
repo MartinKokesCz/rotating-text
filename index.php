@@ -19,8 +19,8 @@ require_once __DIR__ . '/inc/db.php';
     $sqlAll = "SELECT * FROM countdown";
     $resultAll = $db->query($sqlAll);
 
-    $x = 19;
-    $y = 6;
+    $x = 15;
+    $y = 18;
 
     $sqlIsAvailable = "
         SELECT * 
